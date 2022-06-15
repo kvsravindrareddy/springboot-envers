@@ -1,11 +1,13 @@
 package com.ravindra.entity;
 
 import javax.persistence.Entity;
+import javax.persistence.Table;
 
 /**
  * changes
  */
 @Entity
+@Table
 public class Employee {
     private int id;
     private String name;
