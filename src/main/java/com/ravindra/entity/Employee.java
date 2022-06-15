@@ -1,8 +1,11 @@
 package com.ravindra.entity;
 
+import javax.persistence.Entity;
+
 /**
  * changes
  */
+@Entity
 public class Employee {
     private int id;
     private String name;
